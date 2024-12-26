@@ -209,7 +209,7 @@
       // Add a marker for the location
       L.marker([latitude, longitude])
         .addTo(map)
-        .bindPopup(`<h5>${title}</h5><p>${locationName}</p>`)
+        .bindPopup(listing)
         .openPopup();
     } catch (error) {
       console.error("Error fetching coordinates:", error);
