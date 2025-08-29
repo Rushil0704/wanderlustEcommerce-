@@ -160,6 +160,6 @@ app.use((err, req, res, next) => {
 })
 
 // server start
-app.listen(3000, () => {
+app.listen(3012, () => {
     console.log("server is Listening to port 3000");
 });
